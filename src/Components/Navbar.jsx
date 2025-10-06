@@ -44,7 +44,9 @@ const Navbar = () => {
           </NavLink>
         </div>
         <div className="navbar-end">
-          <a className="btn">Button</a>
+          <a className="ml-4 px-6 py-3 rounded-full bg-blue-600 text-white font-semibold hover:bg-blue-700 transition duration-200">
+            Button
+          </a>
         </div>
       </div>
     </Container>
