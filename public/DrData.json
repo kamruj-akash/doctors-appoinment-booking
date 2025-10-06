@@ -1,0 +1,122 @@
+[
+  {
+    "reg_number": "BD20251006001",
+    "name": "Dr. Nafisa Rahman",
+    "degrees": "MBBS, MD - Internal Medicine",
+    "specialization": "General Medicine",
+    "experience": "7+ Years",
+    "availability": ["Saturday", "Tuesday", "Thursday"],
+    "hospital": "Dhaka Medical College Hospital",
+    "consultation_fee_bdt": 300,
+    "status": "Available",
+    "image_url": "https://images.pexels.com/photos/8376298/pexels-photo-8376298.jpeg"
+  },
+  {
+    "reg_number": "BD20251006002",
+    "name": "Dr. Tanvir Hasan",
+    "degrees": "MBBS, FCPS - Cardiology",
+    "specialization": "Cardiology",
+    "experience": "10+ Years",
+    "availability": ["Sunday", "Monday", "Wednesday"],
+    "hospital": "National Heart Foundation, Dhaka",
+    "consultation_fee_bdt": 500,
+    "status": "Available",
+    "image_url": "https://images.pexels.com/photos/8460158/pexels-photo-8460158.jpeg"
+  },
+  {
+    "reg_number": "BD20251006003",
+    "name": "Dr. Ayesha Akter",
+    "degrees": "MBBS, DNB - General Medicine",
+    "specialization": "General Medicine",
+    "experience": "5+ Years",
+    "availability": ["Sunday", "Monday", "Thursday"],
+    "hospital": "TMSS Medical College & Rafatullah Community Hospital, Bogura",
+    "consultation_fee_bdt": 273,
+    "status": "Available",
+    "image_url": "https://images.pexels.com/photos/7580257/pexels-photo-7580257.jpeg"
+  },
+  {
+    "reg_number": "BD20251006004",
+    "name": "Dr. Shakib Al Mamun",
+    "degrees": "MBBS, MD - Dermatology",
+    "specialization": "Skin & VD",
+    "experience": "8+ Years",
+    "availability": ["Tuesday", "Thursday", "Friday"],
+    "hospital": "Square Hospital, Dhaka",
+    "consultation_fee_bdt": 450,
+    "status": "Available",
+    "image_url": "https://images.pexels.com/photos/8460096/pexels-photo-8460096.jpeg"
+  },
+  {
+    "reg_number": "BD20251006005",
+    "name": "Dr. Farhana Haque",
+    "degrees": "MBBS, FCPS - Gynecology",
+    "specialization": "Gynecology & Obstetrics",
+    "experience": "12+ Years",
+    "availability": ["Saturday", "Monday", "Wednesday"],
+    "hospital": "BSMMU",
+    "consultation_fee_bdt": 600,
+    "status": "Available",
+    "image_url": "https://images.pexels.com/photos/8376333/pexels-photo-8376333.jpeg"
+  },
+  {
+    "reg_number": "BD20251006006",
+    "name": "Dr. Kazi Mahmud",
+    "degrees": "MBBS, MS - Orthopedics",
+    "specialization": "Orthopedics",
+    "experience": "6+ Years",
+    "availability": ["Sunday", "Tuesday", "Thursday"],
+    "hospital": "Ibn Sina Hospital, Dhaka",
+    "consultation_fee_bdt": 350,
+    "status": "Available",
+    "image_url": "https://images.pexels.com/photos/8460175/pexels-photo-8460175.jpeg"
+  },
+  {
+    "reg_number": "BD20251006007",
+    "name": "Dr. Laila Nahar",
+    "degrees": "MBBS, DCH - Pediatrics",
+    "specialization": "Child Specialist",
+    "experience": "9+ Years",
+    "availability": ["Saturday", "Tuesday", "Wednesday"],
+    "hospital": "United Hospital, Dhaka",
+    "consultation_fee_bdt": 400,
+    "status": "Available",
+    "image_url": "https://images.pexels.com/photos/8376325/pexels-photo-8376325.jpeg"
+  },
+  {
+    "reg_number": "BD20251006008",
+    "name": "Dr. Md. Rashed Kabir",
+    "degrees": "MBBS, MD - Neurology",
+    "specialization": "Neurology",
+    "experience": "11+ Years",
+    "availability": ["Sunday", "Monday", "Wednesday"],
+    "hospital": "Popular Diagnostic Center, Dhanmondi",
+    "consultation_fee_bdt": 550,
+    "status": "Available",
+    "image_url": "https://images.pexels.com/photos/8460037/pexels-photo-8460037.jpeg"
+  },
+  {
+    "reg_number": "BD20251006009",
+    "name": "Dr. Sumaiya Sultana",
+    "degrees": "MBBS, MS - ENT",
+    "specialization": "ENT Specialist",
+    "experience": "5+ Years",
+    "availability": ["Monday", "Wednesday", "Thursday"],
+    "hospital": "Medinova Medical Services, Dhaka",
+    "consultation_fee_bdt": 320,
+    "status": "Available",
+    "image_url": "https://images.pexels.com/photos/5452291/pexels-photo-5452291.jpeg"
+  },
+  {
+    "reg_number": "BD20251006010",
+    "name": "Dr. Jahidul Islam",
+    "degrees": "MBBS, MD - Psychiatry",
+    "specialization": "Psychiatry",
+    "experience": "6+ Years",
+    "availability": ["Saturday", "Sunday", "Tuesday"],
+    "hospital": "National Institute of Mental Health, Dhaka",
+    "consultation_fee_bdt": 380,
+    "status": "Available",
+    "image_url": "https://images.pexels.com/photos/8460084/pexels-photo-8460084.jpeg"
+  }
+]
