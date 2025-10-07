@@ -1,10 +1,11 @@
 import { FaRegRegistered } from "react-icons/fa";
+import { NavLink } from "react-router";
 
 const DoctorCard = ({ doctor }) => {
   const { reg_number, name, degrees, experience, status, image_url } = doctor;
 
   return (
-    <div className="bg-white rounded-2xl shadow-md p-4">
+    <div className="bg-white rounded-2xl shadow-md p-4 pb-8">
       <img
         src={image_url}
         alt="Doctor"
@@ -33,9 +34,12 @@ const DoctorCard = ({ doctor }) => {
       <hr className="my-4 border-dashed border-gray-300" />
 
       <div className="text-center">
-        <button className="w-full text-blue-600 border border-blue-600 px-4 py-2 rounded-full font-semibold hover:bg-blue-50 transition">
+        <NavLink
+          to={`/DrDetails/${reg_number}`}
+          className="w-full text-blue-600 border border-blue-600 px-4 py-2 rounded-full font-semibold hover:bg-blue-50 transition cursor-pointer"
+        >
           View Details
-        </button>
+        </NavLink>
       </div>
     </div>
   );
