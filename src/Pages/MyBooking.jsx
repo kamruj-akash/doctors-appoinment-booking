@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { MdCancel } from "react-icons/md";
+import Swal from "sweetalert2";
 import Container from "../Components/Container";
 import Recharts from "../Components/Recharts";
 import { useDrList } from "../Hooks/useDrList";
@@ -7,7 +8,7 @@ import { getFromDb, removeFromDb } from "../Utilities/localStorage";
 
 const MyBooking = () => {
   const [bookingList, setBookingList] = useState([]);
-  const [drData, loading, error] = useDrList();
+  const [drData] = useDrList();
 
   useEffect(() => {
     const savedData = getFromDb();
@@ -18,9 +19,25 @@ const MyBooking = () => {
   }, [drData]);
 
   const handleCancel = (id) => {
-    const redBooking = bookingList.filter((item) => item.reg_number != id);
-    setBookingList(redBooking);
-    removeFromDb(id);
+    Swal.fire({
+      title: "want to Cancel Appointment?",
+      icon: "warning",
+      showCancelButton: true,
+      confirmButtonColor: "#3085d6",
+      cancelButtonColor: "#d33",
+      confirmButtonText: "Yes, Cancel Appointment!",
+    }).then((result) => {
+      if (result.isConfirmed) {
+        Swal.fire({
+          title: "Canceled!",
+          text: "Your Appointment has been canceled!",
+          icon: "success",
+        });
+        const redBooking = bookingList.filter((item) => item.reg_number != id);
+        setBookingList(redBooking);
+        removeFromDb(id);
+      }
+    });
   };
 
   return (
