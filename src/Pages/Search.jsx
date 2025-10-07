@@ -1,11 +1,23 @@
 // pages/SearchPage.jsx
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { useLocation } from "react-router";
 import DoctorCard from "../Components/DoctorCard";
 import { useDrList } from "../Hooks/useDrList";
 
 const Search = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [drData] = useDrList();
+  const { state: stateRes } = useLocation();
+
+  useEffect(() => {
+    const homeSearchValue = stateRes.value;
+    if (homeSearchValue != "") {
+      setSearchTerm(homeSearchValue);
+    } else {
+      return setSearchTerm("");
+    }
+  }, [stateRes]);
+  //   setSearchTerm(homeSearchValue);
 
   const filteredData = drData.filter(
     (item) =>

@@ -1,13 +1,14 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import { NavLink } from "react-router";
 import bannerImg from "../assets/banner-img-1.png";
 
-const Banner = ({ drData, setData }) => {
+const Banner = () => {
+  const [search, setSearch] = useState("");
   const inputRef = useRef();
 
-  const searchHandler = () => {
-    const inputValue = inputRef.current.value.toLowerCase().trim();
-  };
+  // const searchHandler = () => {
+  //   const inputValue = inputRef.current.value.toLowerCase().trim();
+  // };
   return (
     <div>
       <div className="hero py-[75px] bg-gray-50 border-5 my-5 border-white rounded-4xl">
@@ -26,12 +27,15 @@ const Banner = ({ drData, setData }) => {
               <div className="flex items-center w-full max-w-xl">
                 <input
                   ref={inputRef}
+                  value={search}
+                  onChange={(e) => setSearch(e.target.value)}
                   type="text"
                   placeholder="Search any doctor..."
                   className="flex-grow px-5 py-3 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all duration-200"
                 />
                 <NavLink
                   to={"/search"}
+                  state={{ value: search }}
                   className="ml-4 px-6 py-3 rounded-full bg-blue-600 text-white font-semibold hover:bg-blue-700 transition duration-200 cursor-pointer"
                 >
                   Search Now

@@ -1,7 +1,9 @@
-import { useContext } from "react";
-
+import { createContext, useState } from "react";
 const DataContext = () => {
-  const searchValue = useContext();
+  const [searchTerm, setSearchTerm] = useState("");
+  const SearchContext = createContext(searchTerm);
+
+  const searchValue = createContext();
   return (
     <div>
       <></>
