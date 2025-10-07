@@ -36,6 +36,7 @@ const Home = () => {
       <div className="flex justify-center mt-8 mb-10">
         <NavLink
           to={"/search"}
+          state={{ value: "" }}
           className="ml-4 px-6 py-3 rounded-full bg-blue-600 text-white font-semibold hover:bg-blue-700 transition duration-200 inline-block text-centre"
         >
           View All Doctors

@@ -37,7 +37,7 @@ const Navbar = () => {
             Blog
           </NavLink>
           <NavLink
-            to={"/about-us"}
+            to={"/contact"}
             className={({ isActive }) => (isActive ? "text-teal-500" : "")}
           >
             ContactUs

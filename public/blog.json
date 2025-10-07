@@ -1,0 +1,162 @@
+[
+  {
+    "id": 3,
+    "title": "The Power of Mindful Eating",
+    "author": "Dr. Farzana Akter",
+    "date": "2025-09-15",
+    "excerpt": "Discover how mindfulness during meals can transform your health.",
+    "image": "/images/blog3.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Benefits of Daily Exercise",
+    "author": "Dr. Mahmud Alam",
+    "date": "2025-09-10",
+    "excerpt": "Daily workouts can boost your mood, energy, and lifespan.",
+    "image": "/images/blog4.jpg"
+  },
+  {
+    "id": 5,
+    "title": "How to Improve Sleep Naturally",
+    "author": "Dr. Nusrat Jahan",
+    "date": "2025-09-05",
+    "excerpt": "Simple and natural techniques for better sleep without medication.",
+    "image": "/images/blog5.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Managing Diabetes: A Guide",
+    "author": "Dr. Sajid Hossain",
+    "date": "2025-08-30",
+    "excerpt": "Practical steps for managing diabetes through diet and lifestyle.",
+    "image": "/images/blog6.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Understanding Mental Health",
+    "author": "Dr. Tahmina Sultana",
+    "date": "2025-08-25",
+    "excerpt": "An overview of mental health challenges and how to seek help.",
+    "image": "/images/blog7.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Hydration: Why Water Matters",
+    "author": "Dr. Aminul Islam",
+    "date": "2025-08-20",
+    "excerpt": "Staying hydrated is essential for overall well-being.",
+    "image": "/images/blog8.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Healthy Eating on a Budget",
+    "author": "Dr. Rehana Parvin",
+    "date": "2025-08-15",
+    "excerpt": "Eat nutritious food without breaking the bank.",
+    "image": "/images/blog9.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Yoga for Beginners",
+    "author": "Dr. Kamrul Hasan",
+    "date": "2025-08-10",
+    "excerpt": "A simple guide to getting started with yoga.",
+    "image": "/images/blog10.jpg"
+  },
+  {
+    "id": 11,
+    "title": "How to Reduce Stress Quickly",
+    "author": "Dr. Roksana Ahmed",
+    "date": "2025-08-05",
+    "excerpt": "Quick techniques to calm your mind and body.",
+    "image": "/images/blog11.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Children's Nutrition Tips",
+    "author": "Dr. Khalid Rahman",
+    "date": "2025-08-01",
+    "excerpt": "Ensure your child gets the right nutrients every day.",
+    "image": "/images/blog12.jpg"
+  },
+  {
+    "id": 13,
+    "title": "Common Myths About Vaccines",
+    "author": "Dr. Sabrina Akhter",
+    "date": "2025-07-28",
+    "excerpt": "Debunking common vaccine misconceptions with science.",
+    "image": "/images/blog13.jpg"
+  },
+  {
+    "id": 14,
+    "title": "Preventing Seasonal Flu",
+    "author": "Dr. Nazmul Huda",
+    "date": "2025-07-20",
+    "excerpt": "Tips to stay healthy during flu season.",
+    "image": "/images/blog14.jpg"
+  },
+  {
+    "id": 15,
+    "title": "Building a Strong Immune System",
+    "author": "Dr. Laila Sharmin",
+    "date": "2025-07-15",
+    "excerpt": "Foods and habits that help your immune system thrive.",
+    "image": "/images/blog15.jpg"
+  },
+  {
+    "id": 16,
+    "title": "The Dangers of Smoking",
+    "author": "Dr. Habib Ullah",
+    "date": "2025-07-10",
+    "excerpt": "Why quitting smoking could save your life.",
+    "image": "/images/blog16.jpg"
+  },
+  {
+    "id": 17,
+    "title": "Pregnancy Health Checklist",
+    "author": "Dr. Mehjabin Yasmin",
+    "date": "2025-07-05",
+    "excerpt": "Things every expecting mother should know.",
+    "image": "/images/blog17.jpg"
+  },
+  {
+    "id": 18,
+    "title": "Posture and Spine Health",
+    "author": "Dr. Asif Karim",
+    "date": "2025-07-01",
+    "excerpt": "How to maintain good posture and avoid back pain.",
+    "image": "/images/blog18.jpg"
+  },
+  {
+    "id": 19,
+    "title": "Healthy Aging Tips",
+    "author": "Dr. Fatema Noor",
+    "date": "2025-06-25",
+    "excerpt": "How to stay active and healthy as you age.",
+    "image": "/images/blog19.jpg"
+  },
+  {
+    "id": 20,
+    "title": "Managing Anxiety in Daily Life",
+    "author": "Dr. Towhidul Islam",
+    "date": "2025-06-20",
+    "excerpt": "Recognizing anxiety symptoms and effective coping strategies.",
+    "image": "/images/blog20.jpg"
+  },
+  {
+    "id": 21,
+    "title": "Nutrition Facts You Didn't Know",
+    "author": "Dr. Selina Haque",
+    "date": "2025-06-15",
+    "excerpt": "Surprising truths about everyday foods.",
+    "image": "/images/blog21.jpg"
+  },
+  {
+    "id": 22,
+    "title": "The Role of Fiber in Your Diet",
+    "author": "Dr. Ahsan Habib",
+    "date": "2025-06-10",
+    "excerpt": "Why fiber is essential and how to get more of it.",
+    "image": "/images/blog22.jpg"
+  }
+]
