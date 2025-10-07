@@ -7,16 +7,17 @@ import { useDrList } from "../Hooks/useDrList";
 
 const Home = () => {
   const [drData, loading, error] = useDrList();
+
   const [data, setData] = useState([]);
   const [toggle, setToggle] = useState(true);
+
   useEffect(() => {
     let homeDrData = drData.slice(0, 8);
     setData(homeDrData);
   }, [drData]);
-
   const viewAllDrHandler = () => {
-    // toggle && setData(homeDrData);
-    setToggle(!toggle);
+    toggle && setData(drData);
+    setToggle(false);
   };
 
   return (
