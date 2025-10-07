@@ -4,6 +4,7 @@ import RootLayout from "../Layouts/RootLayout";
 import DrDetails from "../Pages/DrDetails";
 import Home from "../Pages/Home";
 import MyBooking from "../Pages/MyBooking";
+import Search from "../Pages/Search";
 
 export const router = createBrowserRouter([
   {
@@ -15,6 +16,7 @@ export const router = createBrowserRouter([
         index: true,
         Component: Home,
       },
+      { path: "/search", Component: Search },
       { path: "/DrDetails/:id", Component: DrDetails },
       { path: "/my-booking", Component: MyBooking },
     ],

@@ -1,7 +1,13 @@
+import { useRef } from "react";
 import { NavLink } from "react-router";
 import bannerImg from "../assets/banner-img-1.png";
 
-const Banner = () => {
+const Banner = ({ drData, setData }) => {
+  const inputRef = useRef();
+
+  const searchHandler = () => {
+    const inputValue = inputRef.current.value.toLowerCase().trim();
+  };
   return (
     <div>
       <div className="hero py-[75px] bg-gray-50 border-5 my-5 border-white rounded-4xl">
@@ -19,16 +25,20 @@ const Banner = () => {
             <div className="flex items-center justify-center p-4 ">
               <div className="flex items-center w-full max-w-xl">
                 <input
+                  ref={inputRef}
                   type="text"
                   placeholder="Search any doctor..."
                   className="flex-grow px-5 py-3 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all duration-200"
                 />
-                <NavLink className="ml-4 px-6 py-3 rounded-full bg-blue-600 text-white font-semibold hover:bg-blue-700 transition duration-200">
+                <NavLink
+                  to={"/search"}
+                  className="ml-4 px-6 py-3 rounded-full bg-blue-600 text-white font-semibold hover:bg-blue-700 transition duration-200 cursor-pointer"
+                >
                   Search Now
                 </NavLink>
               </div>
             </div>
-            <div className="flex gap-8 justify-center mt-8">
+            <div className={`flex gap-8 justify-center mt-8}`}>
               <img src={bannerImg} alt="bannerImg" />
               <img src={bannerImg} alt="bannerImg" />
             </div>
