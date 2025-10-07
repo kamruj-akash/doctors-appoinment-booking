@@ -7,7 +7,9 @@ export const useBlog = () => {
   const [error, setError] = useState("");
 
   useEffect(() => {
-    axios("/blog.json")
+    axios(
+      "https://raw.githubusercontent.com/kamruj-akash/doctors-appoinment-booking/refs/heads/main/public/blog.json"
+    )
       .then((res) => setBlog(res.data))
       .catch((err) => setError(err))
       .finally(setLoading(false));
